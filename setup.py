@@ -9,7 +9,7 @@ setup(
     py_modules=["expasy"],
     packages=find_packages(),
     name="biomagicbox",
-    version="0.1",
+    version="0.1.0",
     description="Tools for bioinformatics",
     long_description="***",
     author="Fujun Sun",
@@ -17,6 +17,6 @@ setup(
     install_requires=['requests'],
     zip_safe=False,
     license="MIT Licence",
-    python_requires=">=3.4.0",    
+    python_requires=">=3.4.0",
     include_package_data=True
 )
